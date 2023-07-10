@@ -6,7 +6,7 @@
         "categorie": "Optiques",
         "image": "images/ampoule-led.png",
         "description": "Distance d’éclairage : 100 mètres !",
-        "diponibilté": "oui"
+        "diponibilté": true
 
     },
     {
@@ -16,7 +16,7 @@
         "categorie": "Freinage",
         "image": "images/plaquettes-frein.png",
         "description": "Une qualité de freinage optimale, par tous les temps",
-        "diponibilté": "oui"
+        "diponibilté": true
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@
         "categorie": "Optiques",
         "image": "images/ampoule-boite-a-gants.png",
         "description": "Pour y voir clair dans l’habitacle.",
-        "diponibilté": "non"
+        "diponibilté": false
     },
     {
         "id": 4,
@@ -34,7 +34,7 @@
         "categorie": "Freinage",
         "image": "images/liquide-frein.png",
         "description": "Aucune description, ne pas rajouter de propriété",
-        "diponibilté": "oui"
+        "diponibilté": true
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "prix": 29.10,
         "image": "images/balai-essuie-glace.png",
         "description": "Performances d’essuyage au top ! Longueur : 550 mm.",
-        "diponibilté": "oui"
+        "diponibilté": true
 
     }
 ]

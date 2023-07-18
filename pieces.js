@@ -3,6 +3,7 @@ const reponse = await fetch("pieces-autos.json");
 const pieces = await reponse.json();
 
 const article = pieces[0];
+
 const imageElement = document.createElement("img");
 imageElement.src = article.image;
 const nomElement = document.createElement("h2");
@@ -21,4 +22,7 @@ sectionFiches.appendChild(prixElement);
 sectionFiches.appendChild(categorieElement);
 
 
-article.prix < 35 ? "€" : "€€€"
+
+
+categorieElement.innerText = article.categorie ?? "(aucune catégorie)";
+

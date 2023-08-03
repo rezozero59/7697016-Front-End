@@ -4,7 +4,8 @@
         "nom": "Ampoule LED",
         "prix": 60,
         "categorie": "Optiques",
-        "image": "./images/ampoule-led.png"
+        "image": "./images/ampoule-led.png",
+        "description":
     },
     {
         "id": 2,
@@ -12,6 +13,7 @@
         "prix": 40,
         "categorie": "Freinage",
         "image" : "./images/plaquettes-frein.png"
+        "description":
     },
     {
         "id": 3,
@@ -19,20 +21,23 @@
         "prix": 5.49,
         "categorie": "Optiques",
         "image": "./images/ampoule-boite-a-gants.png"
+        "description":
     },
     {
         "id": 4,
         "nom": "Liquide de frein",
         "prix": 9.60,
-        "categorie": "Freinage"
-        "image": "./images/liquide-frein.png"
+        "categorie": "Freinage",
+        "image": "./images/liquide-frein.png",
+        "description":
     },
     {
         "id": 5,
         "nom": "Balai d'essuie-glace",
         "prix": 29.10,
         "categorie": "",
-        "image": "./images/balai-essuie-glace.png"
+        "image": "./images/balai-essuie-glace.png",
+        "description":
 
     }
 ]
